@@ -55,15 +55,15 @@ buttons += [[InlineKeyboardButton(text="🏹 ADD ME TO YOUR GROUP 🏹",
 buttons += [[InlineKeyboardButton(text="💠SOURCE CODE💠",
                                   url="https://github.com/Apollothewolf/ELIZABETH"),
              InlineKeyboardButton(text="📮SUPPORT📮",
-                                  url="https://t.me/Risk_Girl"),
+                                  url="https://t.me/RiskGirl_bot"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🔒 CLOSE THE MENU 🔒",
+buttons += [[InlineKeyboardButton(text="🔖 CLOSE THE MENU 🔖",
                                   callback_data="close_menu")]]
 
 
 HELP_STRINGS = f"""
-`Hello.. I'm` [𝒮𝒽𝓇𝓊𝓉𝒾🍒](https://telegra.ph/file/4dff62fb12f98944d2176.jpg)
+`Hello.. I'm` [𝒮𝒽𝓇𝓊𝓉𝒾🍒](https://telegra.ph/file/d7fc94f41b336b8f4ff15.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
@@ -196,7 +196,7 @@ def send_start(update, context):
     ]]
              
 
-    buttons += [[InlineKeyboardButton(text="🔒 Close the Menu 🔒",
+    buttons += [[InlineKeyboardButton(text="🔖 Close the Menu 🔖",
                                   callback_data="close_menu")]]
 
 
@@ -219,8 +219,8 @@ def start_stop(update, context):
 
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
-    text = "The menu is closed 🔒"
-    buttons = [[InlineKeyboardButton(text="Reopen Menu 🔓",
+    text = "🛡️The menu is closed 🛡️"
+    buttons = [[InlineKeyboardButton(text="🎸Reopen Menu 🎸",
                                      callback_data="bot_start")]]
 
     update.effective_message.reply_text(
@@ -282,7 +282,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup([[
-                    InlineKeyboardButton(text="🔙 Back",
+                    InlineKeyboardButton(text="🍂 Back🍂",
                                          callback_data="help_back")
                 ]]),
             )
@@ -365,7 +365,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Back🍂", callback_data="help_back")]]
             ),
         )
 
