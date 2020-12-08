@@ -1,9 +1,9 @@
 {
-  "name": "Elizabeth_TgBot",
+  "name": "𝒮𝒽𝓇𝓊𝓉𝒾🍒",
   "description": "A Powerful Telegram Bot written in PTB and Telethon",
-  "logo": "https://telegra.ph/file/bd72857322159140bec6b.jpg",
+  "logo": "https://telegra.ph/file/d7fc94f41b336b8f4ff15.jpg",
   "keywords": ["telegram-bot"],
-  "repository": "https://github.com/p-rinc-e/elizabeth.git",
+  "repository": "https://github.com/Apollothewolf/elizabeth.git",
   "env": {
     "TL_APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -50,27 +50,27 @@
     "DONATION_LINK": {
       "description": "Enter Donation link..",
       "required": false,
-      "value": "https://t.me/P_RINC_E"
+      "value": "https://t.me/Risk_Girl"
     },
     "SUDO_USERS": {
       "description": "List of user id's who will have SUDO rights in your bot(they can't be banned/warned etc. by the bot)",
-      "value": "1398881120",
+      "value": "1368052515",
       "required": false
     },
     "SUPPORT_USERS": {
       "description": "Support users Id's.",
       "required": false,
-      "value": "1398881120"
+      "value": "1331325830"
    },
    "WHITELIST_USERS": {
      "description": "Whitelist user Id's.",
      "required": false,
-     "value": "1398881120"
+     "value": "1331325830"
    },
    "DEV_USERS": {
      "description": "Developers id",
      "required": false,
-     "value": "1398881120"
+     "value": "1368052515"
    },
    "WEBHOOK": {
       "description": "Nothing here.",
