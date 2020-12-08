@@ -52,10 +52,10 @@ buttons += [[InlineKeyboardButton(text="🏹 ADD ME TO YOUR GROUP 🏹",
                                   url="t.me/Elizabeth_TgBot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="💠SOURCE CODE💠",
+buttons += [[InlineKeyboardButton(text="🎃SOURCE CODE🎃",
                                   url="https://github.com/Apollothewolf/ELIZABETH"),
-             InlineKeyboardButton(text="📮SUPPORT📮",
-                                  url="https://t.me/RiskGirl_bot"),
+             InlineKeyboardButton(text="🎗️SUPPORT🎗️",
+                                  url="https://t.me/MT_Officials"),
 ]]
 
 buttons += [[InlineKeyboardButton(text="🔖 CLOSE THE MENU 🔖",
@@ -219,8 +219,8 @@ def start_stop(update, context):
 
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
-    text = "🛡️The menu is closed 🛡️"
-    buttons = [[InlineKeyboardButton(text="🎸Reopen Menu 🎸",
+    text = "🍁The menu is closed 🍁"
+    buttons = [[InlineKeyboardButton(text="🎲Reopen Menu 🎲",
                                      callback_data="bot_start")]]
 
     update.effective_message.reply_text(
@@ -365,7 +365,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back🍂", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="🍂Back🍂", callback_data="help_back")]]
             ),
         )
 
@@ -373,7 +373,7 @@ def get_help(update, context):
         keyb = paginate_modules(0, HELPABLE, "help")
         # Add aditional button if staff user detected
         if user.id in DEV_USERS or user.id in SUDO_USERS or user.id in SUPPORT_USERS:
-            keyb += [[InlineKeyboardButton(text="Staff",
+            keyb += [[InlineKeyboardButton(text="🌀Staff🌀",
                                            callback_data="help_staff")]]
 
         send_help(chat.id, HELP_STRINGS, InlineKeyboardMarkup(keyb))
