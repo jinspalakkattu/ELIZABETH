@@ -40,7 +40,7 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 PM_START_TEXT = f"""
 *Heya!How are You*🎸
-*I'm [𝒮𝒽𝓇𝓊𝓉𝒾🍒](https://telegra.ph/file/4dff62fb12f98944d2176.jpg)*
+*I'm* [𝒮𝒽𝓇𝓊𝓉𝒾🍒](https://telegra.ph/file/4dff62fb12f98944d2176.jpg)
 *I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..*
 """
 
