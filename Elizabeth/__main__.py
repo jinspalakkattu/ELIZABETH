@@ -39,8 +39,8 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-*Heya!How are You*🎸
-*I'm* [𝒮𝒽𝓇𝓊𝓉𝒾🍒](https://telegra.ph/file/4dff62fb12f98944d2176.jpg)
+*Hi!How are You*🎀
+*I'm* [𝓪𝓲𝓻𝓪](https://telegra.ph/file/8359843bb6bc461376e3a.jpg)
 *I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..*
 """
 
@@ -52,10 +52,10 @@ buttons += [[InlineKeyboardButton(text="🏹 ADD ME TO YOUR GROUP 🏹",
                                   url="t.me/Elizabeth_TgBot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🎃SOURCE CODE🎃",
+buttons += [[InlineKeyboardButton(text="✨SOURCE CODE✨",
                                   url="https://t.me/Risk_girlBot"),
-             InlineKeyboardButton(text="🎗️SUPPORT🎗️",
-                                  url="https://t.me/MT_Officials"),
+             InlineKeyboardButton(text="🎁SUPPORT🎁",
+                                  url="https://t.me/MR_SHRLOCK"),
 ]]
 
 buttons += [[InlineKeyboardButton(text="🔖 CLOSE THE MENU 🔖",
@@ -63,7 +63,7 @@ buttons += [[InlineKeyboardButton(text="🔖 CLOSE THE MENU 🔖",
 
 
 HELP_STRINGS = f"""
-`Hello.. I'm` [𝒮𝒽𝓇𝓊𝓉𝒾🍒](https://telegra.ph/file/d7fc94f41b336b8f4ff15.jpg)
+`Hello.. I'm` [A ι ɾ α🖤](https://telegra.ph/file/2697c9d6ef63d9bbb5ed8.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
