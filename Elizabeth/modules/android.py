@@ -8,7 +8,7 @@ from telegram.error import BadRequest
 from telegram.ext import run_async
 
 from Elizabeth import dispatcher
-from Elizabeth.modules.disable import DisableAbleCommandHandler
+
 from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 GITHUB = "https://github.com"
